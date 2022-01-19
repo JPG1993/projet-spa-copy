@@ -1,0 +1,148 @@
+@media screen and (min-width: 900px){
+
+.body {
+    background-image: url(photo/istockphoto-1300278981-170667a.jpg);
+    background-size: cover;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    opacity: 0.8;
+    position: relative;
+    width: 55vw;
+    height: 10vh;
+    margin-top: 20px;
+    margin-right: 50px;
+    background-color: #33495E;
+    border-radius: 8px;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
+}
+.nav a{
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+    line-height: 60px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+}
+.nav a.active{
+    background-color: rgb(43, 43, 38);
+    border-radius: 8px;
+}
+nav .animation{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    background-color: rgb(214, 211, 26);
+    border-radius: 8px;
+    transition: all 0.5s ease 0s;
+}
+a:nth-child(1){
+    width: 95px;
+}
+nav .start-ACCEUIL, a:nth-child(1):hover~.animation{
+    width: 95px;
+    left: 0;
+}
+a:nth-child(2){
+    width: 170px;
+}
+nav .start-ADOPTE, a:nth-child(2):hover~.animation{
+    width: 170px;
+    left: 100px;
+}
+a:nth-child(3){
+    width: 170px;
+}
+nav .start-SUIVI, a:nth-child(3):hover~.animation{
+    width: 170px;
+    left: 260px;
+}
+a:nth-child(4){
+    width: 105px;
+}
+nav .start-CONTACT, a:nth-child(4):hover~.animation{
+    width: 105px;
+    left: 435px;
+}
+a:nth-child(5){
+    width: 205px;
+}
+nav .start-INSCRIPTION, a:nth-child(5):hover~.animation{
+    width: 205px;
+    left: 546px;
+}
+.div1{
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.div2{
+    margin-top: 30px;
+    margin-right: 75px;
+}
+
+.section1{
+    margin-top: 500px;
+    text-align: center;
+}
+.section2{
+    text-align: center;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+.section3b{
+    text-align: center;
+}
+.div6{
+    margin-left: 25px;
+}
+.div7{
+    margin-top: 40px;
+    margin-right: 220px;
+}
+.div8{
+    margin-top: 40px;
+}
+.div9{
+    margin-top: 40px;
+}
+.div10{
+    margin-top: 40px;
+    margin-right: 50px;
+}
+.section3{
+    border: 2px solid lightblue;
+    width: 68%;
+    height: 100vh;
+    margin-left: 18%;
+    background-color: lightblue;
+    opacity: 85%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.col{
+    margin-top: 17px;
+    margin-left: 60px;
+}
+.img{
+    opacity: 100%;
+}
+.footer2{
+    display: flex;
+    justify-content: space-between;
+}
+}
+
+
+
+
+
